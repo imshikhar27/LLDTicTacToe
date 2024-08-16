@@ -1,7 +1,5 @@
 package Model;
 
-import java.util.ArrayList;
-
 public class Board {
     int size;
     PlayingPiece[][] board;
@@ -48,15 +46,4 @@ public class Board {
             System.out.println();
         }
     }
-//    public List<Pair<Integer, Integer>> getLegalMoves() {
-//        List<Pair<Integer, Integer>> legalMoves = new ArrayList<Pair<Integer, Integer>>();
-//        for (int i = 0; i < size; i++) {
-//            for (int j = 0; j < size; j++) {
-//                if (board[i][j] != null) {
-//                    Pair<Integer,Integer> rowColumn= new Pair<Integer,Integer>(i, j);
-//                    legalMoves.add(rowColumn);
-//                }
-//            }
-//        }
-//    }
 }
